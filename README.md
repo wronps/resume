@@ -1,6 +1,6 @@
-# Yuyang Wang — Personal Website
+# Yuyang Wang — Curriculum Vitae
 
-Personal research and resume website, based on `Yuyang_Resume.pdf`.
+A plain, single-column HTML resume following the content and section order of `Yuyang_Resume.pdf`.
 
 **Website:** https://wronps.github.io/resume/
 
@@ -8,12 +8,11 @@ Personal research and resume website, based on `Yuyang_Resume.pdf`.
 
 ## Contents
 
-- `index.html`: profile, research, projects, experience, education, skills, and contact information.
-- `styles.css`: responsive styles, keyboard focus, reduced-motion support, and print layout.
-- `script.js`: optional section highlighting in the navigation.
+- `index.html`: contact information, education, experience, projects, and technical skills.
+- `styles.css`: typography, mobile layout, keyboard focus, and print styles.
 - `Yuyang_Resume.pdf`: the original resume, unchanged.
 
-This is a static website with no build step, package dependencies, external fonts, analytics, or backend. The project diagrams are schematic illustrations, not experimental plots.
+This is a static website with no JavaScript, build step, package dependencies, external fonts, analytics, or backend.
 
 ## Preview locally
 

@@ -3,152 +3,122 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#F7F9FC">
-  <meta name="description" content="Yuyang Wang — Computing Science honors student and undergraduate researcher at the University of Alberta. Software engineering, language models, reinforcement learning, and robotics.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Yuyang Wang | Computing Science & Research">
-  <meta property="og:description" content="Undergraduate researcher at the University of Alberta, working on test-grounded API migration and LLM-based software repair.">
-  <meta property="og:url" content="https://wronps.github.io/resume/">
-  <title>Yuyang Wang | Computing Science & Research</title>
+  <meta name="description" content="Yuyang Wang — curriculum vitae. Education, research and teaching experience, projects, and technical skills.">
+  <title>Yuyang Wang — Curriculum Vitae</title>
   <link rel="canonical" href="https://wronps.github.io/resume/">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="wordmark" href="#about" aria-label="Yuyang Wang, back to top">YW<span aria-hidden="true">.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="header-resume" href="Yuyang_Resume.pdf" download>Resume <span aria-hidden="true">↗</span></a>
-    </div>
-  </header>
+  <main>
+    <header class="name-block">
+      <h1>Yuyang Wang</h1>
+      <ul class="contact-list" aria-label="Contact and resume links">
+        <li><a href="tel:+17809380679">+1 (780) 938-0679</a></li>
+        <li><a href="mailto:wronps@gmail.com">wronps@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/yuyang-wang-763802326/">LinkedIn</a></li>
+        <li><a href="https://github.com/wronps">GitHub</a></li>
+        <li><a href="Yuyang_Resume.pdf" download>PDF</a></li>
+      </ul>
+    </header>
 
-  <main id="main">
-    <section class="hero page-width" id="about" aria-labelledby="intro-title">
-      <div class="intro">
-        <p class="eyebrow"><span class="small-line" aria-hidden="true"></span> Computing Science · University of Alberta</p>
-        <h1 id="intro-title">Yuyang<br>Wang<span class="name-period">.</span></h1>
-        <p class="hero-subtitle">Software that adapts.<br>Systems that learn.</p>
-        <p class="hero-description">I’m an honors Computing Science student and undergraduate researcher at the University of Alberta. I work on language models for software engineering, with projects in reinforcement learning and robotic navigation.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="Yuyang_Resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="mailto:wronps@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <article>
+        <div class="entry-heading">
+          <h3>University of Alberta</h3>
+          <span class="location">Edmonton, AB, Canada</span>
         </div>
-        <div class="profile-links">
-          <span>Edmonton, Canada</span>
-          <span class="dot" aria-hidden="true">·</span>
-          <a href="https://github.com/wronps" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/yuyang-wang-763802326/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <div class="entry-heading">
+          <p>B.Sc. Honors in Computing Science, GPA: 3.96/4.00</p>
+          <span class="date">Sep. 2024 – Apr. 2027 (expected)</span>
         </div>
-      </div>
-
-      <aside class="research-notebook" aria-label="Current research: test-grounded API migration">
-        <div class="notebook-header"><span class="mono">CURRENT RESEARCH</span><span class="notebook-mark" aria-hidden="true">[ ↗ ]</span></div>
-        <h2>When APIs change,<br>what breaks?</h2>
-        <p class="notebook-description">Connecting real-world failures to test-verified repairs.</p>
-        <ol class="research-trace">
-          <li><span class="trace-node" aria-hidden="true"></span><div><span class="trace-label">Observe</span><strong>A library evolves</strong><p>Public APIs across library releases</p></div><span class="trace-symbol" aria-hidden="true">Δ</span></li>
-          <li><span class="trace-node" aria-hidden="true"></span><div><span class="trace-label">Reproduce</span><strong>A test starts failing</strong><p>Real repositories, real upgrade failures</p></div><span class="trace-symbol" aria-hidden="true">×</span></li>
-          <li><span class="trace-node" aria-hidden="true"></span><div><span class="trace-label">Localize</span><strong>Trace the divergence</strong><p>Spectrum-based scores & execution traces</p></div><span class="trace-symbol" aria-hidden="true">⌁</span></li>
-          <li><span class="trace-node" aria-hidden="true"></span><div><span class="trace-label">Repair</span><strong>Verify the fix</strong><p>LLM repair agents grounded in tests</p></div><span class="trace-symbol" aria-hidden="true">✓</span></li>
-        </ol>
-        <a class="notebook-footer" href="#research"><span>Explore the research</span><span aria-hidden="true">↘</span></a>
-      </aside>
-    </section>
-
-    <section class="section page-width" id="research" aria-labelledby="research-title">
-      <div class="section-heading"><div><p class="eyebrow">Research</p><h2 id="research-title">Making API migration<br>test-grounded.</h2></div><p class="section-aside">Software engineering<br>× language models</p></div>
-      <article class="research-feature">
-        <div class="research-title-row">
-          <div><p class="role-label">Paid Undergraduate Research Assistant</p><h3>Real-World, Test-Grounded<br>Deprecated API Update</h3></div>
-          <p class="date">May 2026 — Present</p>
+        <ul>
+          <li>Awards: University of Alberta Undergraduate Scholarship (International), 2025.</li>
+        </ul>
+      </article>
+      <article>
+        <div class="entry-heading">
+          <h3>Shanghai University</h3>
+          <span class="location">Shanghai, China</span>
         </div>
-        <p class="research-affiliation">University of Alberta · Supervised by Professor Zhou Yang, Canada CIFAR AI Chair</p>
-        <p class="research-lede">A benchmark for LLM-based migration of breaking third-party Python library API changes. I lead the development of real-world migration tasks with upgrade-induced test failures and test-verified reference fixes.</p>
-        <div class="research-numbers" aria-label="Research benchmark scope">
-          <div><strong>1,464</strong><span>migration tasks</span></div>
-          <div><strong>405</strong><span>source repositories</span></div>
-          <div><strong>59</strong><span>Python libraries</span></div>
-          <div><strong>5,900+</strong><span>library releases</span></div>
+        <div class="entry-heading">
+          <p>Computer Science and Technology (transferred to University of Alberta), GPA: 3.61/4.00</p>
+          <span class="date">Sep. 2022 – May 2024</span>
         </div>
-        <div class="research-details">
-          <div><h4>API evolution at scale</h4><p>Built a knowledge base with 1.6M change events across 214K APIs, release-level static call graphs, and an AST-based import resolver. Mined 37K real-world repositories from the 224M-repository pool in The Stack v3.</p></div>
-          <div><h4>From diagnosis to repair</h4><p>Combined spectrum-based fault localization with differential execution tracing. Categorized 90K API-change instances using an 18-category taxonomy and LLM-assisted annotation.</p></div>
-          <div><h4>Controlled agent evaluation</h4><p>Benchmarked 3 LLMs under 7 information settings on 30 hand-verified tasks. Tracebacks and library-source tools improved Qwen3.8-27B from 0/30 to 14/30 resolved without code execution, and to 23/30 with code execution.</p></div>
-        </div>
-        <div class="research-status"><span class="status-label">Work in progress</span><p>First-author manuscript in preparation for ISSTA 2027.<br>Scheduled for presentation at CSER 2026.</p></div>
+        <ul>
+          <li>Awards: Academic Progress Scholarship and Innovation & Entrepreneurship Scholarship, Shanghai University, 2024.</li>
+        </ul>
       </article>
     </section>
 
-    <section class="section page-width" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><div><p class="eyebrow">Selected projects</p><h2 id="projects-title">From algorithms<br>to working systems.</h2></div><a class="text-link" href="https://github.com/wronps" target="_blank" rel="noopener noreferrer">More on GitHub <span aria-hidden="true">↗</span></a></div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-visual slam-visual" aria-hidden="true">
-            <svg viewBox="0 0 480 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs><pattern id="map-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="currentColor" stroke-opacity=".1"/></pattern></defs>
-              <rect width="480" height="210" fill="url(#map-grid)"/>
-              <g fill="currentColor" fill-opacity=".13"><path d="M40 40H180V60H60V140H40Z"/><path d="M280 40H440V100H420V60H280Z"/><path d="M140 110H200V190H180V130H140Z"/><path d="M280 130H360V150H300V190H280Z"/></g>
-              <path d="M86 166L120 166L120 86L240 86L240 166L390 166L390 90" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 5" opacity=".45"/>
-              <path d="M86 166C115 166 115 166 120 140L120 115Q120 86 150 86H210Q240 86 240 116V136Q240 166 270 166H360Q390 166 390 136V90" stroke="currentColor" stroke-width="3"/>
-              <circle cx="86" cy="166" r="7" fill="currentColor"/><circle cx="390" cy="90" r="7" fill="#F7F9FC" stroke="currentColor" stroke-width="2"/>
-              <circle cx="240" cy="124" r="20" stroke="currentColor" opacity=".18"/><circle cx="240" cy="124" r="42" stroke="currentColor" opacity=".12"/>
-              <path d="M235 130L240 116L245 130L240 127Z" fill="currentColor"/>
-            </svg>
-            <span class="visual-label">MAP → PLAN → NAVIGATE</span>
-          </div>
-          <div class="project-body"><p class="date">Nov. — Dec. 2025</p><h3>Local 2D SLAM<br>with Dynamic Path Planning</h3><p class="project-summary">A LiDAR navigation pipeline, from probabilistic mapping to control on a physical Clearpath Jackal robot.</p>
-            <ul class="detail-list"><li>EKF-filtered odometry and Ceres scan-to-map optimization with bicubic B-spline interpolation.</li><li>2-cm occupancy grids with Bresenham ray tracing; obstacle-inflated A*, gradient-descent path smoothing, and Pure Pursuit control.</li><li>Multi-threaded ROS integration, tested in Gazebo/RViz and on physical hardware.</li></ul>
-            <p class="tech-stack">C++ · ROS · Ceres Solver · Docker</p>
-            <div class="project-links"><a href="https://github.com/wronps/2d_slam_pathplanner" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a><a href="https://github.com/wronps/2d_slam_pathplanner/blob/main/Local_2D_SLAM_with_Dynamic_Path_Planning.pdf" target="_blank" rel="noopener noreferrer">Read report <span aria-hidden="true">↗</span></a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual rl-visual" aria-hidden="true">
-            <svg viewBox="0 0 480 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"><path d="M100 55L240 55L380 105L240 155L100 155L240 105L100 55ZM100 105L240 55M100 105L240 105M100 105L240 155M100 55L240 155M100 155L240 55M240 55L380 105M240 105L380 105M240 155L380 105"/></g>
-              <path d="M100 105L240 55L380 105" stroke="currentColor" stroke-width="2.5"/>
-              <g fill="#EAF0FC" stroke="currentColor" stroke-width="2"><circle cx="100" cy="55" r="8"/><circle cx="100" cy="105" r="8"/><circle cx="100" cy="155" r="8"/><circle cx="240" cy="55" r="8"/><circle cx="240" cy="105" r="8"/><circle cx="240" cy="155" r="8"/><circle cx="380" cy="105" r="12"/></g>
-              <circle cx="240" cy="55" r="3.5" fill="currentColor"/><circle cx="380" cy="105" r="5" fill="currentColor"/>
-            </svg>
-            <span class="visual-label">STATE → POLICY → ACTION</span>
-          </div>
-          <div class="project-body"><p class="date">Jan. — Mar. 2026 · Graduate coursework, CMPUT 628</p><h3>Deep Reinforcement Learning</h3><p class="project-summary">Implementing and evaluating value-based and policy-based methods, from DQN and Double DQN to PPO.</p>
-            <ul class="detail-list"><li>Experience replay, target networks, and multi-step TD returns (1, 5, 10). Image-based Jumping Tasks reached 99.7% success using Double DQN with 40-step returns.</li><li>PPO from scratch with Gaussian actor-critic policies, GAE, and clipped policy optimization.</li><li>Mean returns of about 3,200 on Walker2d-v4 and 2,700 on Ant-v4 over 3 seeds; ablations on entropy, target updates, and replay capacity.</li></ul>
-            <p class="tech-stack">PyTorch · Gymnasium · MuJoCo</p>
-            <div class="project-links"><a href="https://github.com/wronps/DRL-DQN-DDQN-and-PPO-experiments" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a></div>
-          </div>
-        </article>
-      </div>
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+      <article>
+        <div class="entry-heading">
+          <h3>Paid Undergraduate Research Assistant</h3>
+          <span class="date">May 2026 – Present</span>
+        </div>
+        <p class="affiliation">University of Alberta — Supervisor: Professor Zhou Yang, Canada CIFAR AI Chair</p>
+        <p class="location">Edmonton, AB, Canada</p>
+        <p class="research-description"><strong>Real-World, Test-Grounded Deprecated API Update:</strong> a benchmark for LLM-based migration of breaking third-party Python library API changes. First-author manuscript in preparation for ISSTA 2027; scheduled for presentation at CSER 2026.</p>
+        <ul>
+          <li>Led the development of a test-grounded benchmark for real-world Python API migration, constructing 1,464 migration tasks from 405 repositories, each with upgrade-induced test failures and test-verified reference fixes.</li>
+          <li>Built an API-evolution knowledge base for 59 Python libraries: enumerated the public API over 5,900+ releases, diffed adjacent releases into 1.6M change events over 214K APIs, built static call graphs within each release, and mined 37K real-world repositories from 224M GitHub repositories (The Stack v3) with an AST-based import resolver.</li>
+          <li>Developed fault localization combining spectrum-based scoring and differential execution tracing to rank diverging API calls; categorized 90K API-change instances using an 18-category taxonomy and LLM-assisted annotation.</li>
+          <li>Designed a repair-agent harness and benchmarked 3 LLMs under 7 information settings on 30 hand-verified tasks: tracebacks plus library-source tools raised Qwen3.8-27B from 0/30 to 14/30 resolved without code execution and to 23/30 with code execution.</li>
+        </ul>
+      </article>
+      <article>
+        <div class="entry-heading">
+          <h3>Teaching Assistant</h3>
+          <span class="date">Sep. 2025 – Apr. 2026</span>
+        </div>
+        <div class="entry-heading">
+          <p class="affiliation">University of Alberta, Department of Computing Science</p>
+          <span class="location">Edmonton, AB, Canada</span>
+        </div>
+        <ul>
+          <li>TA for CMPUT 365 (Introduction to Reinforcement Learning) and CMPUT 201 (Practical Programming Methodology): led labs and office hours for 200+ undergraduates in C, Linux and RL; contributed RL exam questions.</li>
+        </ul>
+      </article>
     </section>
 
-    <section class="section page-width" id="experience" aria-labelledby="experience-title">
-      <div class="section-heading"><div><p class="eyebrow">Experience</p><h2 id="experience-title">Learning. Building. Teaching.</h2></div></div>
-      <article class="resume-row"><p class="date">May 2026 — Present</p><div><h3>Paid Undergraduate Research Assistant</h3><p class="institution">University of Alberta</p><p>Research on LLM-based Python API migration, benchmark construction, fault localization, and automated repair under Professor Zhou Yang.</p><a class="inline-link" href="#research">Research details <span aria-hidden="true">↑</span></a></div></article>
-      <article class="resume-row"><p class="date">Sep. 2025 — Apr. 2026</p><div><h3>Teaching Assistant</h3><p class="institution">University of Alberta · Department of Computing Science</p><p>Led labs and office hours for 200+ undergraduates in C, Linux, and reinforcement learning. Contributed reinforcement learning exam questions.</p><div class="course-list"><span>CMPUT 365 · Introduction to Reinforcement Learning</span><span>CMPUT 201 · Practical Programming Methodology</span></div></div></article>
+    <section aria-labelledby="projects">
+      <h2 id="projects">Projects</h2>
+      <article>
+        <div class="entry-heading">
+          <h3>Local 2D SLAM with Dynamic Path Planning</h3>
+          <span class="date">Nov. 2025 – Dec. 2025</span>
+        </div>
+        <p class="project-details">C++, ROS, Ceres Solver, Docker · <a href="https://github.com/wronps/2d_slam_pathplanner">Code</a> · <a href="https://github.com/wronps/2d_slam_pathplanner/blob/main/Local_2D_SLAM_with_Dynamic_Path_Planning.pdf">Report</a></p>
+        <ul>
+          <li>Developed a local 2D LiDAR SLAM pipeline combining EKF-filtered odometry with Ceres-based scan-to-map optimization (bicubic B-spline interpolation) and 2-cm probabilistic occupancy-grid mapping with Bresenham ray tracing.</li>
+          <li>Integrated obstacle-inflated A* planning with gradient-descent path smoothing and Pure Pursuit control in a multi-threaded ROS navigation pipeline; tested in Gazebo/RViz and on a physical Clearpath Jackal robot.</li>
+        </ul>
+      </article>
+      <article>
+        <div class="entry-heading">
+          <h3>Deep Reinforcement Learning: Value-Based and Policy-Based Methods</h3>
+          <span class="date">Jan. 2026 – Mar. 2026</span>
+        </div>
+        <p class="project-details">Graduate Coursework (CMPUT 628), PyTorch, Gymnasium, MuJoCo · <a href="https://github.com/wronps/DRL-DQN-DDQN-and-PPO-experiments">Code</a></p>
+        <ul>
+          <li>Implemented DQN and Double DQN with experience replay, target networks, and multi-step TD returns (1, 5, 10); extended Double DQN to image-based Jumping Tasks using 40-step returns and achieved a 99.7% success rate.</li>
+          <li>Developed PPO from scratch with Gaussian actor-critic policies, GAE, and clipped policy optimization (mean return of about 3,200 on Walker2d-v4 and 2,700 on Ant-v4 over 3 seeds); ran ablations on entropy regularization, target update frequency, and replay buffer capacity.</li>
+        </ul>
+      </article>
     </section>
 
-    <section class="section page-width" id="education" aria-labelledby="education-title">
-      <div class="section-heading"><div><p class="eyebrow">Education</p><h2 id="education-title">A foundation in computing.</h2></div></div>
-      <article class="resume-row"><p class="date">Sep. 2024 — Apr. 2027<br><span class="date-note">Expected graduation</span></p><div><div class="education-heading"><h3>University of Alberta</h3><span class="gpa">GPA <strong>3.96 / 4.00</strong></span></div><p class="institution">B.Sc. Honors in Computing Science · Edmonton, Canada</p><p class="award">University of Alberta Undergraduate Scholarship (International), 2025.</p></div></article>
-      <article class="resume-row"><p class="date">Sep. 2022 — May 2024</p><div><div class="education-heading"><h3>Shanghai University</h3><span class="gpa">GPA <strong>3.61 / 4.00</strong></span></div><p class="institution">Computer Science and Technology · Shanghai, China</p><p>Transferred to the University of Alberta.</p><p class="award">Academic Progress Scholarship and Innovation & Entrepreneurship Scholarship, 2024.</p></div></article>
+    <section aria-labelledby="skills">
+      <h2 id="skills">Technical Skills</h2>
+      <dl class="skills">
+        <div><dt>Programming Languages:</dt> <dd>Python, C++, Java, SQL, Bash, MATLAB</dd></div>
+        <div><dt>LLM & ML:</dt> <dd>PyTorch, Hugging Face Transformers, vLLM, tool-calling agents and MCP servers, Gymnasium, MuJoCo</dd></div>
+        <div><dt>Software Engineering:</dt> <dd>Docker, uv, Python AST & runtime tracing, Git, Linux, Slurm, Fuzzing, SMT solver, SQLite</dd></div>
+        <div><dt>Robotics:</dt> <dd>ROS, tf2, Gazebo, RViz, Ceres Solver</dd></div>
+      </dl>
     </section>
-
-    <section class="section page-width skills-section" id="skills" aria-labelledby="skills-title">
-      <div class="section-heading"><div><p class="eyebrow">Technical skills</p><h2 id="skills-title">My working toolkit.</h2></div></div>
-      <dl class="skills-list"><div><dt>Languages</dt><dd>Python, C++, Java, SQL, Bash, MATLAB</dd></div><div><dt>LLM & machine learning</dt><dd>PyTorch, Hugging Face Transformers, vLLM, tool-calling agents and MCP servers, Gymnasium, MuJoCo</dd></div><div><dt>Software engineering</dt><dd>Docker, uv, Python AST & runtime tracing, Git, Linux, Slurm, fuzzing, SMT solver, SQLite</dd></div><div><dt>Robotics</dt><dd>ROS, tf2, Gazebo, RViz, Ceres Solver</dd></div></dl>
-    </section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="page-width contact-inner"><div><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s connect<span>.</span></h2><a class="contact-email" href="mailto:wronps@gmail.com">wronps@gmail.com <span aria-hidden="true">↗</span></a></div><div class="contact-links"><a href="https://github.com/wronps" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/yuyang-wang-763802326/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="tel:+17809380679">+1 (780) 938-0679</a><a href="Yuyang_Resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a></div></div></section>
   </main>
-  <footer class="page-width site-footer"><p>© 2026 Yuyang Wang</p><p>Edmonton, Alberta, Canada</p><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
